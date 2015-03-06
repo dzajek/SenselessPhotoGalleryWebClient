@@ -1,0 +1,46 @@
+#container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#header {
+	padding: 20px;
+	border-radius: 4px;
+}
+
+#header h1 {
+	margin: 0;
+}
+
+#content-container {
+	float: left;
+	width: 100%;
+}
+
+#content {
+	clear: right;
+	float: right;
+	width: 73%;
+	padding: 20px 0;
+	margin: 0 3% 0 0;
+}
+
+#content h2 {
+	margin: 0;
+}
+
+#navigation {
+	float: left;
+	width: 16%;
+	padding: 20px 0;
+	margin: 0 0 0 3%;
+	
+}
+
+#footer {
+	clear: left;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	border-radius: 4px;
+}

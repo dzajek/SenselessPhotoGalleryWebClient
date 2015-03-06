@@ -1,0 +1,8 @@
+<% _.each(photos, function(photo) { %>
+<figure class="thumbnail">
+  <a data-code="<%=photo.get('srcUrl')%>" data-caption="<%= photo.get('title')%>"  rel="photoLink">
+    <img src="gallery/thumbnail/<%=photo.get('srcUrl')%>" alt="<%=photo.get('title')%>" />
+  </a>
+  <figcaption><%= photo.get('title')%></figcaption>
+</figure>
+<% }); %>

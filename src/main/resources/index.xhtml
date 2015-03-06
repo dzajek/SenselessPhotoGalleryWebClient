@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5" />
+    
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
+    <link href="css/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width: 700px)" />
+    
+    <title>Senseless Photo Gallery 2013</title>
+</head>
+<body>
+    <div id="photoOverlay">
+        <img src="img/loading.gif" />
+    </div>
+    <figure id="photoContainer">
+        <img id="actualPhoto" />
+        <figcaption id="photoCaption"></figcaption>
+    </figure>
+    <div id="container">
+        <h1 id="header" class="ui-widget-header">Senseless Photo Gallery 2013</h1>
+        
+        <section id="content-container">
+            <nav id="navigation"></nav>
+            <article id="content"></article>
+        </section>
+        
+        <footer id="footer" class="ui-widget-header"></footer>
+    </div>
+    <div id="errorDialog"></div>
+    <script data-main="js/main" src="js/libs/require/require-jquery.js"></script>
+</body>
+</html>

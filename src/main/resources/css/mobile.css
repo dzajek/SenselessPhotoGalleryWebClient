@@ -1,0 +1,21 @@
+body {
+    margin: 20px;
+}
+
+#navigation {
+    float: none;
+    width: auto;
+    margin: 0 3%;
+    padding: 10px;
+}
+
+#content-container {
+    float: none;
+}
+
+#content {
+	float: none;
+	width: auto;
+    margin: 0 3%;
+    padding: 10px;
+}

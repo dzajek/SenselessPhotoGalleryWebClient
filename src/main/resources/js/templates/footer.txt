@@ -1,0 +1,1 @@
+Copyright <%= year %> &#169; Senseless (<span class="author">bronowsk IT</span>). All right reserved.

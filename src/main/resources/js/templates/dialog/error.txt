@@ -1,0 +1,7 @@
+<div id="dialog-message" title="<%=title %>">
+    <p>
+        <span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 50px 0;"></span>
+        <span id="error-message"><%=message %></span>
+    </p>
+    <p id="error-details-message"><%=details %></p>
+</div>
